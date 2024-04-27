@@ -56,7 +56,11 @@ def html_escape(text):
 
 for pubsource in publist:
     parser = bibtex.Parser()
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+
+    try:
+        bibdata = parser.parse_file(publist[pubsource]["file"])
+    except Exception as e:
+        continue
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
