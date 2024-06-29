@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3655038.3665943,
+    author = {Hu, Jiyu and Kosaian, Jack and Rashmi, K. V.},
+    title = {Rethinking Erasure-Coding Libraries in the Age of Optimized Machine Learning},
+    year = {2024},
+    isbn = {9798400706301},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3655038.3665943},
+    doi = {10.1145/3655038.3665943},
+    abstract = {Erasure codes are critical tools for building fault-tolerant and resource-efficient storage systems. However developing and maintaining optimized erasure-coding libraries are challenging. We make the case that the growth of fast machine-learning (ML) libraries may serve as a lifeboat for easing the development of current and future optimized erasure-coding libraries: fast erasure-coding libraries for various hardware platforms can be easily implemented by using existing optimized ML libraries. We show that the computation structure of many erasure codes mirrors that common to matrix multiplication, which is heavily optimized in ML libraries. Due to this similarity, one can implement erasure codes using ML libraries in few lines of code and with little knowledge of erasure codes, while immediately adopting the many optimizations within these libraries, without requiring expertise in high-performance programming. We develop prototypes of our proposed approach using an existing ML library. Our prototypes are up to 1.75\texttimes{} faster than state-of-the-art custom erasure-coding libraries.},
+    booktitle = {Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems},
+    pages = {23–30},
+    numpages = {8},
+    keywords = {erasure coding, machine learning, redundancy},
+    location = {Santa Clara, CA, USA},
+    series = {HotStorage '24}
+}

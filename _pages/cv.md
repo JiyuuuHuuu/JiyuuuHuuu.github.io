@@ -18,7 +18,6 @@ Education
 Work experience
 ======
 * Summer 2022: Software Engineer, Oracle Corporation
-
 * Summer 2020: Software Engineer, Nvidia Corporation
 
 Publications
@@ -32,6 +31,10 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
+Service & Activities
+======
+* 2024: Artifact Reviewer: OSDI '24, ATC '24
   
 <!-- Teaching
 ======
