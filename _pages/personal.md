@@ -9,7 +9,7 @@ author_profile: true
 I both watch and play soccer. My team: Bayern Munich, Mia san Mia!!! Personally, I play winger and full back (preferably right). I play for [UIUCFA](https://www.instagram.com/cfa_uiuc/). We compete in intramurals and regional chinese tournaments. Hit me up anytime at Siebel if you wanna play pickups or watch UCL ;)
 
 ### Snowboard
-I have been snowboarding for three seasons (since 21'). Fav mountains: [Brighton](https://brightonresort.com/), [Snowbird](https://www.snowbird.com/). Big fan of the Cottonwoods! I have been mostly enjoying freerides (or more precisely just cruising), but will be an eager learner if someone can teach me park tricks (dreaming of landing my first 3s since first season lol). I have also explored local mountains (within 6h drive), among which [Granite Peak](https://www.skigranitepeak.com/) might be the best. Looking forward to explore more mountains all over the world!
+I have been snowboarding for three seasons (since '21). Fav mountains: [Brighton](https://brightonresort.com/), [Snowbird](https://www.snowbird.com/). Big fan of the Cottonwoods! I have been mostly enjoying freerides (or more precisely just cruising), but will be an eager learner if someone can teach me park tricks (dreaming of landing my first 3s since first season lol). I have also explored local mountains (within 6h drive), among which [Granite Peak](https://www.skigranitepeak.com/) might be the best. Looking forward to explore more mountains all over the world!
 
 ### Food
 Gluttony favs:
