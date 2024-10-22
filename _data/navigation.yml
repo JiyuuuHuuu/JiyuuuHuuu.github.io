@@ -16,7 +16,10 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/jiyuhu_cv_sep_2024.pdf
+
+  - title: "Personal"
+    url: /personal/ 
     
   # - title: "Guide"
   #   url: /markdown/
