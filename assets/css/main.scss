@@ -39,3 +39,23 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.archive__item-note {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+.archive__item p {
+    margin: 5px 0;
+}
+
+.archive__item-title {
+    margin-bottom: 2px;
+}
+
+.archive__item-authors,
+.archive__item-excerpt {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
