@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Erasure-Coding Libraries in the Age of Optimized Machine Learning"
 collection: publications
-permalink: files/tvm
+permalink: files/tvm.pdf
 author:  Jiyu Hu,  Jack Kosaian,  K. Rashmi, 
 date: 2024-05-01
 venue: 'In the proceedings of Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems'
