@@ -19,3 +19,5 @@ Gluttony favs:
 * [Alinea](https://www.alinearestaurant.com/) (Everything)
 * [Shizuku](https://shizuku.ca/) (Rare seasonal fish)
 * [Don Alfonso 1890](https://www.donalfonsotoronto.com/) (Eel sorbet ;P)
+* [Smyth](https://www.smythandtheloyalist.com/smyth/) (Paramount Caviar)
+* [McDonald's](https://www.mcdonalds.com/us/en-us.html)(Double Quarter Pounder with Cheese Deluxe)
