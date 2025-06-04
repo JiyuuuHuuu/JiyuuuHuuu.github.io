@@ -12,12 +12,15 @@ I both watch and play soccer. My team: Bayern Munich, Mia san Mia!!! Personally,
 I have been snowboarding for three seasons (since '21). Fav mountains: [Brighton](https://brightonresort.com/), [Snowbird](https://www.snowbird.com/). Big fan of the Cottonwoods! I have been mostly enjoying freerides (or more precisely just cruising), but will be an eager learner if someone can teach me park tricks (dreaming of landing my first 3s since first season lol). I have also explored local mountains (within 6h drive), among which [Granite Peak](https://www.skigranitepeak.com/) might be the best. Looking forward to explore more mountains all over the world!
 
 ### Food
-Gluttony favs:
+Favs:
 * [Shibumi](https://www.shibumidtla.com/) (Can't beat Japanese rice and desserts)
 * [Odo](https://www.odo.nyc/) (GOAT nimono)
+* [Kappo Yuji](https://www.kappoyuji.com/) (Seiko crab!!!)
 * [Birdsong](https://www.birdsongsf.com/) (Poultry, a.k.a. BIRDs)
 * [Alinea](https://www.alinearestaurant.com/) (Everything)
 * [Shizuku](https://shizuku.ca/) (Rare seasonal fish)
 * [Don Alfonso 1890](https://www.donalfonsotoronto.com/) (Eel sorbet ;P)
+* [DaNico](https://www.danicotoronto.com/) (Great Italian with subtle Japanese touch)
 * [Smyth](https://www.smythandtheloyalist.com/smyth/) (Paramount caviar & dungeness crab)
 * [McDonald's](https://www.mcdonalds.com/us/en-us.html) (Double Quarter Pounder with Cheese Deluxe)
+* [Culver's](https://www.culvers.com/) (Goto chain burger place in town)
