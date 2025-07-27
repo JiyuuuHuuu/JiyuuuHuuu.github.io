@@ -1,7 +1,8 @@
 ---
 title: 'Use Magic-Trace to profile your program'
 date: 2025-06-04
-permalink: /posts/2025/06/matrictrace/
+permalink: /posts/2025/06/magictrace/
+author_profile: false
 tags:
   - profiling
   - Linux
