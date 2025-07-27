@@ -3,6 +3,7 @@ title: 'Use Magic-Trace to profile your program'
 date: 2025-06-04
 permalink: /posts/2025/06/magictrace/
 author_profile: false
+related: false
 tags:
   - profiling
   - Linux
