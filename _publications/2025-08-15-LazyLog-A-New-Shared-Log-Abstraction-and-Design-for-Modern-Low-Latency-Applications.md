@@ -1,7 +1,7 @@
 ---
 title: "LazyLog: A New Shared Log Abstraction and Design for Modern Low-Latency Applications"
 collection: publications
-link: https://doi.org/10.1145/3750445
+link: https://dl.acm.org/doi/pdf/10.1145/3750445
 excerpt: '\* equal contribution'
 author:  "Xuhao Luo,  Shreesha Bhat*,  **Jiyu Hu**\\*,  Ramnatthan Alagappan,  Aishwarya Ganesan"
 date: 2025-08-01
