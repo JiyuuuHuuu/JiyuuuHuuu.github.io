@@ -29,7 +29,7 @@ layout: default
           {% if page.title %}
             <h1 class="page__title" itemprop="headline">
               {% if page.url == "/" or page.permalink == "/" or page.title == "Home" %}
-                About Me
+                About Me <span style="font-size: 0.55em; font-weight: normal;">[<a href="/files/jiyuhu_cv.pdf">CV</a>]</span>
               {% else %}
                 {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
               {% endif %}

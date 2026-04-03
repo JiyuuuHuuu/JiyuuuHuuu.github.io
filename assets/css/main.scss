@@ -59,3 +59,51 @@
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+.page__content h2#publications,
+.page__content h2#talks {
+    font-size: 1.563em;
+    font-weight: bold;
+    margin-top: 2.5em;
+}
+
+.page__content .archive__item-title {
+    font-size: 1.15em;
+    margin-bottom: 0;
+}
+
+.page__content .archive__item p {
+    font-size: 0.85em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page__content p a,
+.page__content .archive__item-excerpt a {
+    color: #4a4a4a;
+}
+
+.page__content .archive__item:hover .archive__item-title {
+    text-decoration: none !important;
+}
+
+.page__title {
+    border-bottom: 1px solid #4a4a4a !important;
+    padding-bottom: 0.2em;
+}
+
+.page__content h2#publications,
+.page__content h2#talks {
+    border-bottom: 1px solid #4a4a4a !important;
+    padding-bottom: 0.2em;
+}
+
+.page__content .list__item {
+    margin-bottom: 1.5em;
+}
+
+.pub-footnote {
+    font-size: 16px;
+    margin-top: -1em;
+    display: block;
+}

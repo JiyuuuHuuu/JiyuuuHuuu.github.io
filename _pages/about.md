@@ -11,3 +11,17 @@ I started my Ph.D. at UIUC in 2023. I am honored to be advised by Prof. [Ram Ala
 \
 Before joining UIUC as a Ph.D., I finished my undergraduate also at UIUC working with Prof. [Indranil Gupta](https://indy.cs.illinois.edu/), and master's degree at CMU with Prof. [Rashmi Vinayak](https://www.cs.cmu.edu/~rvinayak/).
 
+## Publications
+
+<span class="pub-footnote">\* = equal contribution</span>
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+## Talks
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+
