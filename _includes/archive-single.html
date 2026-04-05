@@ -62,7 +62,11 @@
     {% endif %}
 
     {% if post.note %}
-      <p class="archive__item-note">{{ post.note }}</p>
+      {% if post.note contains 'Best Paper' %}
+        <p class="archive__item-note">{{ post.note }}</p>
+      {% else %}
+        <p class="archive__item-to-appear">{{ post.note }}</p>
+      {% endif %}
     {% endif %}
     
     <!-- {% if post.citation and post.paperurl %}
