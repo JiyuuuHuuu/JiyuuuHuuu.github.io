@@ -24,8 +24,8 @@ author:
   avatar           : "1.jpg"
   name             : "Jiyu Hu"
   pronouns         : # example: "she/her"  
-  bio              : "Graduate Student, CS, UIUC"
-  location         : "Champaign, Illinois"
+  bio              : "Graduate Student, Computer Science"
+  # location         : "Champaign, Illinois"
   employer         : "University of Illinois"
   uri              : # URL
   email            : "jiyuhu2@illinois.edu" 
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=hpoSDf0AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0003-1899-9062"
+  # orcid            : "https://orcid.org/0000-0003-1899-9062"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
