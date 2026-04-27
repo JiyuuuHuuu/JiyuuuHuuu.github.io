@@ -1,102 +1,38 @@
-# AGENTS.md - Guidelines for Agentic Coding Agents
+# AGENTS.md
 
-## Project Overview
-Academic personal website for Jiyu Hu (UIUC CS Graduate Student), built with **Jekyll** using the **Academic Pages** template (fork of Minimal Mistakes). Hosted on GitHub Pages.
+## What this repo is
+- Personal academic site built on Academic Pages (Jekyll + Minimal Mistakes style structure).
+- No CI workflows in `.github/workflows`; validate changes locally.
 
-## Build / Dev Commands
+## Dev commands (verified)
+- Ruby version file is `.ruby-version` = `3.2.2`.
+- Install Ruby deps: `bundle install`
+- Run site locally (use `bundle exec`): `bundle exec jekyll serve -l -H localhost`
+- Install JS deps: `npm install`
+- Rebuild JS bundle: `npm run build:js`
+- JS watch mode: `npm run watch:js`
+- Docker helper: `./start_docker.sh` (builds `.devcontainer/Dockerfile` image `personal-website` if missing, then runs container with repo mounted and port `4000:4000`).
 
-### Local Development
-```bash
-bundle install              # Install Ruby dependencies (first time)
-bundle exec jekyll serve -l -H localhost   # Start dev server with live reload
-```
+## Verification expectations
+- No automated tests/lint/typecheck configured.
+- Usual verification is running Jekyll locally and checking rendered pages in browser.
 
-### JavaScript Build
-```bash
-npm install                 # Install Node dependencies (first time)
-npm run build:js            # Minify JS into assets/js/main.min.js
-npm run watch:js            # Watch JS files and auto-rebuild
-```
+## Critical wiring / gotchas
+- `_config.yml` changes require restarting the Jekyll server (Jekyll does not hot-reload config).
+- `assets/js/main.min.js` is tracked and generated from `assets/js/_main.js` + `assets/js/plugins/*.js` via `npm run build:js`; if source JS changes, commit rebuilt `main.min.js` too.
+- Jekyll `exclude` in `_config.yml` excludes `assets/js/_main.js` and `assets/js/plugins` from site output, so runtime JS comes from `assets/js/main.min.js`.
+- Home page content is `_pages/about.md` with `permalink: /`.
+- `_layouts/single.html` has custom logic: on home page it forces title text to `About Me` and hardcodes a CV link (`/files/jiyuhu_cv.pdf`).
 
-### Docker
-```bash
-./start_docker.sh           # Start via Docker
-```
+## Content structure that matters
+- Main nav links are in `_data/navigation.yml`.
+- Collections with output pages: `_publications/` and `_talks/` (`output: true` in `_config.yml`).
+- `portfolio` collection exists but is configured `output: false`.
 
-## Testing
-**No test framework is configured.** This is a static site; verify changes by running the dev server and inspecting the rendered output in a browser.
+## Content generation scripts
+- `markdown_generator/publications.py` and `markdown_generator/talks.py` write output to `../_publications/` and `../_talks/`; run them from inside `markdown_generator/`.
+- `talkmap.py` is intended to run from `_talks/` and writes map artifacts to `../talkmap/`.
 
-## Linting / Formatting
-**No linting or formatting tools are configured.** Follow existing code style manually (see below).
-
-## Content Conventions
-
-### File Naming
-- Posts: `_posts/YYYY-MM-DD-slug.md`
-- Publications: `_publications/YYYY-MM-DD-Title-With-Dashes.md`
-- Talks: `_talks/YYYY-MM-DD-title.md`
-- Portfolio: `_portfolio/slug.md`
-
-### Front Matter
-All content files use YAML front matter. Required fields by type:
-
-**Posts**: `title`, `date`, `permalink`, optionally `tags`, `author_profile`, `related`
-**Publications**: `title`, `collection: publications`, `link`, `author`, `date`, `venue`, `citation`
-**Talks**: `title`, `collection: talks`, `date`, `venue`, `location`
-
-### Markdown
-- Uses **kramdown** with **GFM** (GitHub Flavored Markdown) input
-- Excerpt separator: `\n\n`
-- Code blocks use standard GFM triple-backtick syntax with language tags
-
-## Code Style
-
-### HTML / Liquid Templates
-- Use 2-space indentation
-- Liquid tags: `{% tag %}` and `{{ variable }}` with single spaces inside delimiters
-- Include partials via `{% include filename.html %}` from `_includes/`
-- Layouts live in `_layouts/`; reference via `layout: name` in front matter
-
-### SCSS
-- Files in `_sass/`, imported from `assets/css/main.scss`
-- Style output: compressed (production)
-- Follow existing naming: underscores for partials (`_base.scss`, `_sidebar.scss`)
-
-### JavaScript
-- Source files in `assets/js/` and `assets/js/plugins/`
-- Main entry: `assets/js/_main.js`
-- Output: `assets/js/main.min.js` (auto-generated, do not edit)
-- Uses jQuery 3.x
-
-### YAML / Config
-- 2-space indentation
-- Strings with special characters should be quoted
-- Site-wide settings in `_config.yml` (requires server restart to take effect)
-- Navigation in `_data/navigation.yml`
-- Author info in `_data/authors.yml`
-
-## Key Directories
-| Path | Purpose |
-|------|---------|
-| `_pages/` | Main site pages (about, CV, etc.) |
-| `_posts/` | Blog posts |
-| `_publications/` | Publication entries |
-| `_talks/` | Talk entries |
-| `_portfolio/` | Portfolio entries |
-| `_layouts/` | Jekyll layout templates |
-| `_includes/` | Reusable HTML partials |
-| `_sass/` | SCSS stylesheets |
-| `_data/` | Site data (YAML) |
-| `assets/` | Static assets (CSS, JS, fonts) |
-| `images/` | Images and favicons |
-| `files/` | Downloadable files (e.g., CV PDF) |
-
-## Git / Workflow
-- Branch off `main` (or `gh-pages` if that is the deploy branch)
-- `_site/`, `node_modules/`, `Gemfile.lock`, and `local/` are gitignored
-- No CI/CD beyond GitHub Pages automatic deployment
-
-## Notes
-- `_config.yml` changes require restarting the Jekyll server
-- Collections (`publications`, `talks`) output pages via `output: true` in config
-- Use `bundle exec` prefix for all Jekyll commands to ensure correct gem versions
+## Git/worktree notes
+- Current branch is `master`.
+- `.gitignore` ignores `_site/`, `local/`, `node_modules`, `package-lock.json`, and `Gemfile.lock`.
