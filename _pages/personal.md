@@ -25,7 +25,7 @@ Next books I aim to read:
 * [Hojo no Umi](https://en.wikipedia.org/wiki/The_Sea_of_Fertility)
 
 ### Food
-I love go out and eat well given chances.
+I love go out and eat well given chances. An updated list is on my [Beli Profile](https://beliapp.co/app/edd223)
 Favs:
 * [Shibumi](https://www.shibumidtla.com/) (Can't beat Japanese rice and desserts)
 * [Odo](https://www.odo.nyc/) (GOAT nimono)
