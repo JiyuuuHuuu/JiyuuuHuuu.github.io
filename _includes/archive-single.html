@@ -34,14 +34,6 @@
       {% else %}
         <span style="color: #4a4a4a;">{{ title }}</span>
       {% endif %}
-      {% if post.slide or post.code %}
-        &nbsp;
-        <span style="font-size: 0.75em; font-weight: normal; white-space: nowrap;">
-          {% if post.slide %}[<a href="{{ post.slide }}" style="color: #1a73e8;">slide</a>]{% endif %}
-          {% if post.slide and post.code %} {% endif %}
-          {% if post.code %}[<a href="{{ post.code }}" style="color: #1a73e8;">code</a>]{% endif %}
-        </span>
-      {% endif %}
       <!-- <a href="{{ post.link or (base_path + post.url) }}" rel="permalink">
         <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
         <span class="sr-only">Permalink</span>
@@ -75,6 +67,14 @@
       {% else %}
         <p class="archive__item-to-appear">{{ post.note }}</p>
       {% endif %}
+    {% endif %}
+
+    {% if post.slide or post.code %}
+      <p style="margin-top: 0.2em; margin-bottom: 0; line-height: 1;">
+        {% if post.slide %}[<a href="{{ post.slide }}" style="color: #1a73e8;">slides</a>]{% endif %}
+        {% if post.slide and post.code %} {% endif %}
+        {% if post.code %}[<a href="{{ post.code }}" style="color: #1a73e8;">code</a>]{% endif %}
+      </p>
     {% endif %}
     
     <!-- {% if post.citation and post.paperurl %}
