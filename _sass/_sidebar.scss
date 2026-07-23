@@ -243,6 +243,14 @@
     white-space: nowrap;
   }
 
+  // Keep icon-to-text alignment consistent across mixed icon sets
+  // (Font Awesome + Academicons), including non-`fa-fw` entries.
+  .icon-pad-right {
+    display: inline-block;
+    width: 1.4em;
+    text-align: center;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
