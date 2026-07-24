@@ -45,9 +45,14 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ post.type }}, {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% assign venue_parts = post.venue | split: ' | ' %}
+          {% if venue_parts.size > 1 %}
+            <p>{{ venue_parts[0] }} | <i>{{ venue_parts[1] }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% else %}
+            <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
           <p class="archive__item-authors">
             {{ post.author | join: ', ' | markdownify }}
           </p>
