@@ -5,7 +5,7 @@ permalink: /personal/
 author_profile: true
 ---
 ### Bio
-My name is written as 胡济宇 in Chinese. I was born in Anhui, China. I moved to Ibaraki, Japan with my family when I was 3 and lived there for 6 years. To this day, I can still understand Japanese pretty well. I read novels and watch videos in Japanese, but my speaking ability has degraded so much. I hope to practice Japanese with other folks. I moved to Shanghai, China when I was 10 and stayed there until I graduated high school.
+My name is written as 胡济宇 in Chinese. I was born in Anhui, China. I moved to Ibaraki, Japan with my family when I was 3 and lived there for 6 years. To this day, I can still understand Japanese pretty well. I read novels and watch videos in Japanese, but my speaking ability has degraded so much. I hope to practice Japanese with other folks. I moved to Shanghai, China when I was 10 and lived there until I graduated high school.
 
 ### Soccer
 I both watch and play soccer. My team: Bayern Munich, Mia san Mia!!! Personally, I play winger (either side is fine) and full back (preferably right). I play for [UIUCFA](https://www.instagram.com/cfa_uiuc/). We compete in intramurals and regional chinese tournaments. Hit me up anytime at Siebel if you wanna play pickups or watch UCL ;)
@@ -19,6 +19,9 @@ I love reading novels, and try to do as much as I can. However, I have to admit 
 * [Kinkaku-Ji](https://en.wikipedia.org/wiki/The_Temple_of_the_Golden_Pavilion)
 * [Yukiguni](https://en.wikipedia.org/wiki/Snow_Country)
 * [The Unbearable Lightness of Being](https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being)
+* [Metaphysics of Morals](https://en.wikipedia.org/wiki/Metaphysics_of_Morals)
+
+These days I am looking into Immanuel Kant in general but he is so hard to understand. Would love to learn from folks about philosophy. After all we are Doctor of **Philosophy**.
 
 Next books I aim to read:
 * [One Hundred Years of Solitude](https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude)
